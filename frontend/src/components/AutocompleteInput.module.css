@@ -1,0 +1,120 @@
+.autocompleteWrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.autocompleteWrapper label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.autocompleteWrapper input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #333333;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.autocompleteWrapper input:focus {
+  outline: none;
+  border-color: #FF4433;
+}
+
+.autocompleteWrapper input:disabled {
+  background-color: #333333;
+  cursor: not-allowed;
+  color: #888888;
+}
+
+.autocompleteContainer {
+  position: relative;
+}
+
+.suggestionsList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #343434;
+  border: 2px solid #FF4433;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 100;
+  margin-top: -2px;
+  box-shadow: 0 4px 8px rgba(255, 68, 51, 0.2);
+  list-style: none;
+  padding: 0;
+}
+
+.suggestionItem {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: background-color 0.2s;
+  border-bottom: 1px solid #333333;
+}
+
+.suggestionItem:last-child {
+  border-bottom: none;
+}
+
+.suggestionItem:hover {
+  background-color: #1a1a1a;
+}
+
+.suggestionItem:active {
+  background-color: #333333;
+}
+
+.suggestionAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.suggestionAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.suggestionText {
+  font-weight: 500;
+  color: #ffffff;
+  flex: 1;
+}
+
+.suggestionDescription {
+  font-size: 0.85rem;
+  color: #cccccc;
+  margin-top: 0.25rem;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.suggestionItemHasAvatar {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.suggestionItemHasDescription {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+

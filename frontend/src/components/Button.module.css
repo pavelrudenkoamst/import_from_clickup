@@ -1,0 +1,24 @@
+.button {
+  flex: 1;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(45deg, rgb(255, 132, 27), rgb(255, 0, 7), rgb(230, 39, 248));
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 0, 7, 0.4);
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
