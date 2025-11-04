@@ -112,6 +112,17 @@ YOUTRACK_PROJECT_ID=TEST
 5. Wait for the import to complete
 6. Review the results in the modal
 
+<img width="1440" height="707" alt="screenshot 3" src="https://github.com/user-attachments/assets/01285ff4-2c24-404f-a105-312eaa651312" />
+
+<img width="1440" height="706" alt="screenshot 4" src="https://github.com/user-attachments/assets/64cc0733-5469-44e0-8382-c60f4f0f5a1e" />
+
+<img width="1440" height="707" alt="screenshot 5" src="https://github.com/user-attachments/assets/9753512b-b381-4210-b2c0-b9d166488c66" />
+
+<img width="1440" height="705" alt="screenshot 6" src="https://github.com/user-attachments/assets/1341ba8c-2a44-4287-ae41-940c415b1900" />
+
+<img width="1440" height="707" alt="screenshot 7" src="https://github.com/user-attachments/assets/20f7b4f0-e861-41d3-891c-a52e30393f66" />
+
+
 ### Sync Issues
 
 1. After importing issues, you can sync them
@@ -123,8 +134,17 @@ YOUTRACK_PROJECT_ID=TEST
    - Skip unchanged issues
 5. Review the sync results in the modal
 
+<img width="1440" height="705" alt="screenshot 9" src="https://github.com/user-attachments/assets/c1e9b932-8e4e-43b6-9a8e-9907deb2dc47" />
+
+<img width="1440" height="708" alt="screenshot 10" src="https://github.com/user-attachments/assets/2156451c-5f15-48ec-be03-1871bf8f4c51" />
+
+
 ### Notes
 
 - **First-time sync**: You must import issues before syncing
+<img width="1440" height="706" alt="screenshot 11" src="https://github.com/user-attachments/assets/fd557d50-de44-4436-9734-919845d5a480" />
+
 - **Duplicate prevention**: The system automatically detects and skips already imported issues
+<img width="1440" height="705" alt="screenshot 13" src="https://github.com/user-attachments/assets/4d53a590-2e81-4c3c-9071-ee4f47c0cf89" />
+
 - **Matching**: Issues are matched by GitHub URL in YouTrack description, with title-based fallback
